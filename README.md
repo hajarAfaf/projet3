@@ -3,7 +3,7 @@
 <div>
 
 
-<div align="center" style="font-family: 'Times New Roman', Times, serif; color: #3498db;">
+<div align="center" style="font-family: 'Georgia', serif;" color: #3498db;">
   <h1 style="font-size: 10em; margin-bottom: 180px;">
     Deep Learning-Based Star-Galaxy Classification :<br>
     "IMAGE"
