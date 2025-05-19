@@ -10,7 +10,7 @@
   </h1>
 </div>
 
-<div align="right" style="font-family: 'Times New Roman', Times, serif; 
+<div align="right" style="font-family: 'Georgia', serif;"
                           color: #8e44ad;
                           font-style: italic;
                           font-weight: bold;
