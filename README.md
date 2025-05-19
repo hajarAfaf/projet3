@@ -5,8 +5,8 @@
 
 <div align="center" style="font-family: 'Times New Roman', Times, serif; color: #3498db;">
   <h1 style="font-size: 10em; margin-bottom: 180px;">
-    Projet Machine Learning :<br>
-    "TEXT"
+    Deep Learning-Based Star-Galaxy Classification :<br>
+    "IMAGE"
   </h1>
 </div>
 
@@ -17,7 +17,7 @@
                           margin-right: 15%;
                           margin-top: 10px;
                           font-size: 20em;">
-   Realised by : SABI Houssame & CHADADI Zakaria
+   Realised by : AFAF Hajar & EZZERROUTI Salwa
 </div>
 
 &nbsp;
