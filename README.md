@@ -105,13 +105,18 @@ print(f"🌟 Stars: {len(stars)} | 🌌 Galaxies: {len(galaxies)}")
 
 ## 📡 Training Performance
 
-             Training	   Validation
-Accuracy 	     92%	       88%
-Loss	         0.25	       0.30
+| Metric       | Training | Validation |
+|--------------|----------|------------|
+| **Accuracy** | 92%      | 88%        |
+| **Loss**     | 0.25     | 0.30       |
 
 ## 🖥️ Streamlit Interface
 
+```mermaid
 graph TD
-    A[Upload Image] --> B{AI Observation}
-    B -->|Star| C[🌟 Display Stellar Features]
-    B -->|Galaxy| D[🌌 Show Galactic Structure]
+    A[Upload Image] --> B{CNN Prediction}
+    B -->|Star| C[🌟 Show Stellar Features]
+    B -->|Galaxy| D[🌌 Display Galactic Structure]
+    C --> E[Output Visualization]
+    D --> E
+```
