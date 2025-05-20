@@ -88,15 +88,15 @@ from pathlib import Path
 
 ## 🧑‍💻Data Collection
 
-
 data_path = Path(kagglehub.dataset_download("divyansh22/dummy-astronomy-data"))
 
 print(f"🌟 Stars: {len(stars)} | 🌌 Galaxies: {len(galaxies)}")
 
 
-<div>
-<img src="https://github.com/user-attachments/assets/8f126685-2be2-4eab-8f81-fafd5ba420bb" width=1100>
-<div>
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/afe7a6a4-84db-4bb7-ac29-9ba34a4370ff" width="700" style="border: 1px solid #ddd; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1)" alt="Diagramme du modèle">
+  <p style="font-size: 0.9em; color: #666;">Schéma technique - Master IT 2025</p>
+</div>
 
   
 ## 🧠 Model Architecture
