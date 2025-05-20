@@ -24,16 +24,16 @@
 
 
 ## 📌 Table of Contents  
-1. 🌀 [Project Stardust](#project-stardust)  
-2.🌌 [Celestial Features](#celestial-features)  
-3.🚀 [Installation: Launch Sequence](#installation-launch-sequence)  
-4.🔭 [Usage: Telescope Mode](#usage-telescope-mode)  
-5.🧠 [Neural Nebula Architecture](#neural-nebula-architecture)  
-6.📡 [Data Constellation](#data-constellation)  
-7.📊 [Interstellar Results](#interstellar-results)  
-8.🔮 [Future Lightyears](#future-lightyears)  
-9.👽 [Join the Cosmic Crew](#join-the-cosmic-crew)  
-10.⚖️ [Universal License](#universal-license)
+1. 🌀 [Project Objectives](#project-objectives)  
+2. 🌌 [Celestial Features](#celestial-features)  
+3. 🚀 [Installation: Launch Sequence](#installation-launch-sequence)  
+4. 🔭 [Usage: Telescope Mode](#usage-telescope-mode)  
+5. 🧠 [Neural Nebula Architecture](#neural-nebula-architecture)  
+6. 📡 [Data Constellation](#data-constellation)  
+7. 📊 [Interstellar Results](#interstellar-results)  
+8. 🔮 [Future Lightyears](#future-lightyears)  
+9. 👽 [Join the Cosmic Crew](#join-the-cosmic-crew)
+10. ⚖️ [Universal License](#universal-license)
 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/34f96a50-0427-409a-ae31-843c71c7ae0c"width=200>
