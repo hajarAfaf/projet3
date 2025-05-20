@@ -30,9 +30,9 @@
 4. 🧑‍💻 [Data Collection](#data-collection)  
 5. 🧠 [ Model Architecture](#model-architecture)  
 6. 📡 [Training Performance](#training-performance)  
-7. 📊 [Interstellar Results](#interstellar-results)  
+7. 🚀 [Deployment Streamlit with Ngrok](#deployment-streamlit-with-ngrok)  
 8. 🖥️ [Streamlit Interface](#streamlit-interface)  
-9. 👽 [Join the Cosmic Crew](#join-the-cosmic-crew)
+9. 🛠️ [Project Structure](#join-the-cosmic-crew)
 10. ⚖️ [Universal License](#universal-license)
 
 <div align="center">
@@ -110,6 +110,18 @@ print(f"🌟 Stars: {len(stars)} | 🌌 Galaxies: {len(galaxies)}")
 | **Accuracy** | 92%      | 88%        |
 | **Loss**     | 0.25     | 0.30       |
 
+## 🚀 Deployment Streamlit with Ngrok
+
+from pyngrok import ngrok
+import time
+ngrok.kill()
+!streamlit run app.py &>/content/logs.txt &
+time.sleep(5)
+public_url = ngrok.connect("http://localhost:8501")
+print(f"🚀 Ton app est accessible ici : {public_url}")
+
+N.B: Essayez d'obtenir votre authotoken par: https://dashboard.ngrok.com/get-started/your-authtoken 
+
 ## 🖥️ Streamlit Interface
 
 ```mermaid
@@ -120,3 +132,13 @@ graph TD
     C --> E[Output Visualization]
     D --> E
 ```
+
+## 🛠️ Project Structure
+
+project3/
+├── data/                   
+├── app.py                  
+├── training.ipynb           
+├── requirements.txt        
+└── README.md              
+
