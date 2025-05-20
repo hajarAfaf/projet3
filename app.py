@@ -161,3 +161,4 @@ if st.button("Télécharger et préparer les données"):
             """)
     st.image(img, caption=f"Vraie étiquette : {class_names[label]} | Prédiction : {class_names[pred]}", width=256)
 
+
