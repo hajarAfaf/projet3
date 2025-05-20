@@ -36,7 +36,7 @@
 10.⚖️ [Universal License](#universal-license)
 
 <div align="center">
-  <img src="[https://media.giphy.com/media/3o7TKUM3IgJBX2as9O/giphy.gif" width="200](https://github.com/user-attachments/assets/34f96a50-0427-409a-ae31-843c71c7ae0c)">
+  <img src="https://github.com/user-attachments/assets/34f96a50-0427-409a-ae31-843c71c7ae0c"width=200>
 </div>
 
 ## 🌀 Project Stardust <a name="project-stardust"></a>
