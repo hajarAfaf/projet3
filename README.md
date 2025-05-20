@@ -29,9 +29,9 @@
 3. 🚀 [Installation: Launch Sequence](#installation-launch-sequence)  
 4. 🧑‍💻 [Data Collection](#data-collection)  
 5. 🧠 [ Model Architecture](#model-architecture)  
-6. 📡 [Data Constellation](#data-constellation)  
+6. 📡 [Training Performance](#training-performance)  
 7. 📊 [Interstellar Results](#interstellar-results)  
-8. 🔮 [Future Lightyears](#future-lightyears)  
+8. 🖥️ [Streamlit Interface](#streamlit-interface)  
 9. 👽 [Join the Cosmic Crew](#join-the-cosmic-crew)
 10. ⚖️ [Universal License](#universal-license)
 
@@ -102,3 +102,16 @@ print(f"🌟 Stars: {len(stars)} | 🌌 Galaxies: {len(galaxies)}")
                             Dense(64, activation='relu'),
                             Dense(num_classes, activation='softmax')
     ])
+
+## 📡 Training Performance
+
+             Training	   Validation
+Accuracy 	     92%	       88%
+Loss	         0.25	       0.30
+
+## 🖥️ Streamlit Interface
+
+graph TD
+    A[Upload Image] --> B{AI Observation}
+    B -->|Star| C[🌟 Display Stellar Features]
+    B -->|Galaxy| D[🌌 Show Galactic Structure]
