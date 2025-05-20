@@ -24,8 +24,8 @@
 
 
 ## 📌 Table of Contents  
-1. 🌀 [Project Objectives](#project-objectives)  
-2. 🌌 [Celestial Features](#celestial-features)  
+1. 🌀 [Project Overview](#project-overview)  
+2. 🌌 [Key Features](#key-features)  
 3. 🚀 [Installation: Launch Sequence](#installation-launch-sequence)  
 4. 🔭 [Usage: Telescope Mode](#usage-telescope-mode)  
 5. 🧠 [Neural Nebula Architecture](#neural-nebula-architecture)  
@@ -39,30 +39,28 @@
   <img src="https://github.com/user-attachments/assets/34f96a50-0427-409a-ae31-843c71c7ae0c"width=200>
 </div>
 
-## 🌀 Project Stardust <a name="project-stardust"></a>
-**Where machine learning meets the cosmos**  
-This project is your personal **AI astronomer**, classifying celestial objects through a magical blend of:  
-✨ **TensorFlow alchemy**  
-✨ **Streamlit stardust**  
-✨ **Computer vision constellations**
 ## 🔍 Project Overview <a name="project-overview"></a>
 This project leverages **Convolutional Neural Networks (CNNs)** to classify astronomical images into **stars** or **galaxies**. The model is trained on a dataset of labeled images and deployed via a **Streamlit web interface** for easy predictions.  
+**End-to-End Deep Learning Solution** for classifying astronomical objects, developed for Université Mohammed V's Master IT program. This project demonstrates:
+- Data collection from Kaggle's astronomy dataset
+- CNN model training with TensorFlow
+- Deployment via Streamlit web interface
+- Ngrok tunneling for public access
 
-**Use Cases:**  
-- Automated classification for astronomical surveys  
-- Educational tool for astronomy enthusiasts  
-- Preprocessing step for large-scale astrophysics research  
+**Modality**: Image Classification  
+**Use Case**: Distinguishing stars from galaxies in telescope images
 
 [↑ Back to Top](#table-of-contents)
 
 ---
 
 ## ✨ Key Features <a name="key-features"></a>
-✅ **Interactive Web Interface** (Streamlit)  
-✅ **CNN Model** with TensorFlow/Keras  
+✅ **Interactive Web Interface** (Streamlit) 
+✅ **CNN Model** with TensorFlow/Keras : 2 Conv layers + MaxPooling	TensorFlow/Keras 
 ✅ **Real-Time Predictions** with Confidence Scores  
-✅ **Data Augmentation** for improved generalization  
+✅ **Data  Pipeline** for improved generalization : Automated Kaggle download + preprocessing	KaggleHub, TensorFlow
 ✅ **Visualization** of training metrics (Accuracy/Loss)  
+✅ **Deployment** Public URL generation	Ngrok
 
 [↑ Back to Top](#table-of-contents)
 
