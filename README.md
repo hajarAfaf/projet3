@@ -24,17 +24,27 @@
 
 
 ## 📌 Table of Contents  
-1. [Project Overview](#project-overview)  
-2. [Key Features](#key-features)  
-3. [Installation](#installation)  
-4. [Usage](#usage)  
-5. [Model Architecture](#model-architecture)  
-6. [Dataset](#dataset)  
-7. [Results](#results)  
-8. [Future Improvements](#future-improvements)  
-9. [Contributing](#contributing)  
+1. 🌀 [Project Stardust](#project-stardust)  
+2.🌌 [Celestial Features](#celestial-features)  
+3.🚀 [Installation: Launch Sequence](#installation-launch-sequence)  
+4.🔭 [Usage: Telescope Mode](#usage-telescope-mode)  
+5.🧠 [Neural Nebula Architecture](#neural-nebula-architecture)  
+6.📡 [Data Constellation](#data-constellation)  
+7.📊 [Interstellar Results](#interstellar-results)  
+8.🔮 [Future Lightyears](#future-lightyears)  
+9.👽 [Join the Cosmic Crew](#join-the-cosmic-crew)  
+10.⚖️ [Universal License](#universal-license)
 
+<div align="center">
+  <img src="https://media.giphy.com/media/3o7TKUM3IgJBX2as9O/giphy.gif" width="200">
+</div>
 
+## 🌀 Project Stardust <a name="project-stardust"></a>
+**Where machine learning meets the cosmos**  
+This project is your personal **AI astronomer**, classifying celestial objects through a magical blend of:  
+✨ **TensorFlow alchemy**  
+✨ **Streamlit stardust**  
+✨ **Computer vision constellations**
 ## 🔍 Project Overview <a name="project-overview"></a>
 This project leverages **Convolutional Neural Networks (CNNs)** to classify astronomical images into **stars** or **galaxies**. The model is trained on a dataset of labeled images and deployed via a **Streamlit web interface** for easy predictions.  
 
@@ -56,7 +66,7 @@ This project leverages **Convolutional Neural Networks (CNNs)** to classify astr
 
 [↑ Back to Top](#table-of-contents)
 
----
+ ![Space Banner](https://images.unsplash.com/photo-1462331940025-496dfbfc7564?ixlib=rb-1.2.1&auto=format&fit=crop&w=1600&h=400)
 
 ## ⚙️ Installation <a name="installation"></a>
 
