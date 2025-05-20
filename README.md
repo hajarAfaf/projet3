@@ -94,8 +94,8 @@ data_path = Path(kagglehub.dataset_download("divyansh22/dummy-astronomy-data"))
 print(f"🌟 Stars: {len(stars)} | 🌌 Galaxies: {len(galaxies)}")
 
 
-<div align="center">
-<img src="https://github.com/user-attachments/assets/8f126685-2be2-4eab-8f81-fafd5ba420bb" width=700>
+<div>
+<img src="https://github.com/user-attachments/assets/8f126685-2be2-4eab-8f81-fafd5ba420bb" width=1100>
 <div>
 
   
