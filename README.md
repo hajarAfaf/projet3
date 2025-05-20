@@ -27,8 +27,8 @@
 1. 🌀 [Project Overview](#project-overview)  
 2. 🌌 [Key Features](#key-features)  
 3. 🚀 [Installation: Launch Sequence](#installation-launch-sequence)  
-4. 🔭 [Usage: Telescope Mode](#usage-telescope-mode)  
-5. 🧠 [Neural Nebula Architecture](#neural-nebula-architecture)  
+4. 🧑‍💻 [Data Collection](#data-collection)  
+5. 🧠 [ Model Architecture](#model-architecture)  
 6. 📡 [Data Constellation](#data-constellation)  
 7. 📊 [Interstellar Results](#interstellar-results)  
 8. 🔮 [Future Lightyears](#future-lightyears)  
@@ -72,14 +72,27 @@ This project leverages **Convolutional Neural Networks (CNNs)** to classify astr
 - Python 3.8+  
 - pip (Python package manager)  
 
-### Steps  
-1. **Clone the repository**  
-   ```bash
-   git clone https://github.com/yourusername/astronomy-classifier.git
-   cd astronomy-classifier
-🌌 Deep Learning-Based Star-Galaxy Classification
-This Jupyter Notebook implements a Deep Learning model using CNNs and TensorFlow to classify celestial objects as Stars or Galaxies.
+### Installation et importation de bibliothèques Python  
+!pip install tensorflow kagglehub matplotlib
+!pip install streamlit pyngrok
+import tensorflow as tf
+import numpy as np
+import matplotlib.pyplot as plt
+from sklearn.model_selection import train_test_split
+import os
+from pathlib import Path
 
-📌 Dataset: Real telescope images collected from a 1.3m telescope in Nainital, India
-📌 Goal: To develop an AI model that can identify whether an image contains a Star or a Galaxy
-📌 Methods Used: Image Processing, CNN (Convolutional Neural Network), Grad-CAM visualization
+## 🧑‍💻Data Collection
+
+data_path = Path(kagglehub.dataset_download("divyansh22/dummy-astronomy-data"))
+print(f"🌟 Stars: {len(stars)} | 🌌 Galaxies: {len(galaxies)}")
+
+## 🧠 Model Architecture
+model = Sequential([
+    Conv2D(32, (3,3), activation='relu', input_shape=(64,64,3)),
+    MaxPooling2D(2,2), 
+    Conv2D(64, (3,3), activation='relu'), 
+    Flatten(),
+    Dense(64, activation='relu'), 
+    Dense(2, activation='softmax') 
+])
