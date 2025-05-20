@@ -64,6 +64,7 @@ This project leverages **Convolutional Neural Networks (CNNs)** to classify astr
 ✅ **Data  Pipeline** for improved generalization : Automated Kaggle download + preprocessing	KaggleHub, TensorFlow
 
 ✅ **Visualization** of training metrics (Accuracy/Loss)  
+
 ✅ **Deployment** Public URL generation	Ngrok
 
 [↑ Back to Top](#table-of-contents)
@@ -92,12 +93,14 @@ data_path = Path(kagglehub.dataset_download("divyansh22/dummy-astronomy-data"))
 print(f"🌟 Stars: {len(stars)} | 🌌 Galaxies: {len(galaxies)}")
 
 ## 🧠 Model Architecture
+
 model = Sequential([
-    Conv2D(32, (3,3), activation='relu', input_shape=(64,64,3)),
-    
-    MaxPooling2D(2,2), 
-    Conv2D(64, (3,3), activation='relu'), 
-    Flatten(),
-    Dense(64, activation='relu'), 
-    Dense(2, activation='softmax') 
-])
+ 
+        Conv2D(32, (3,3), activation='relu', input_shape=input_shape),
+        MaxPooling2D(2,2),
+        Conv2D(64, (3,3), activation='relu'),
+        MaxPooling2D(2,2),
+        Flatten(),  # ✅ rend les données compatibles avec Dense
+        Dense(64, activation='relu'),
+        Dense(num_classes, activation='softmax')
+    ])
