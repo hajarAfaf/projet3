@@ -5,7 +5,7 @@
 
 <div align="center" style="font-family: 'Georgia', serif;" color: #3498db;">
   <h1 style="font-size: 10em; margin-bottom: 180px;">
-    Deep Learning-Based Star-Galaxy Classification :<br>
+    Classifying Stars and Galaxies with Deep Learning :<br>
     "IMAGE"
   </h1>
 </div>
@@ -21,7 +21,8 @@
 </div>
 
 &nbsp;
-
+# 📌 Table of Contents
+## Project Overview
 
 🌌 Deep Learning-Based Star-Galaxy Classification
 This Jupyter Notebook implements a Deep Learning model using CNNs and TensorFlow to classify celestial objects as Stars or Galaxies.
