@@ -32,8 +32,7 @@
 6. 📡 [Training Performance](#training-performance)  
 7. 🚀 [Deployment Streamlit with Ngrok](#deployment-streamlit-with-ngrok)  
 8. 🖥️ [Streamlit Interface](#streamlit-interface)  
-9. 🛠️ [Project Structure](#join-the-cosmic-crew)
-10. ⚖️ [Universal License](#universal-license)
+9. 🛠️ [Project Structure](#project-structure)
 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/34f96a50-0427-409a-ae31-843c71c7ae0c"width=200>
