@@ -135,9 +135,9 @@ graph TD
 ## 🛠️ Project Structure
 
 project3/
-├── data/                   
-├── app.py                  
-├── training.ipynb           
-├── requirements.txt        
-└── README.md              
+        ├── data/                   
+        ├── app.py                  
+        ├── training.ipynb           
+        ├── requirements.txt        
+        └── README.md              
 
