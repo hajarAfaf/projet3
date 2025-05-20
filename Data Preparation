@@ -1,0 +1,71 @@
+import kagglehub
+
+# Download latest version
+data_path = Path(kagglehub.dataset_download("divyansh22/dummy-astronomy-data"))
+TARGET_DIR = Path("/content/data")
+
+TARGET_DIR.mkdir(exist_ok=True)
+!rsync -a "{data_path}/" "{TARGET_DIR}/"
+cutout_path = os.path.join(data_path, "Cutout Files")
+print("Contenu Cutout Files :", os.listdir(cutout_path))
+print("Path to dataset files:", data_path)
+star_path = os.path.join(cutout_path, "star")
+galaxy_path = os.path.join(cutout_path, "galaxy")
+print(f"Nombre étoiles disponibles: {len(os.listdir(star_path))}")
+print(f"Nombre galaxies disponibles: {len(os.listdir(galaxy_path))}")
+
+def load_images_from_folder(folder, label, img_size=(64,64)):
+    images = []
+    labels = []
+    for filename in os.listdir(folder):
+        img_path = os.path.join(folder, filename)
+        img = tf.keras.preprocessing.image.load_img(img_path, target_size=img_size)
+        img_array = tf.keras.preprocessing.image.img_to_array(img) / 255.0
+        images.append(img_array)
+        labels.append(label)
+    return images, labels
+
+stars, star_labels = load_images_from_folder(star_path, 0)
+galaxies, galaxy_labels = load_images_from_folder(galaxy_path, 1)
+
+X = np.array(stars + galaxies)
+y = np.array(star_labels + galaxy_labels)
+
+print(f"Dataset total : {len(X)} images")
+
+import tensorflow as tf
+from tensorflow.keras.preprocessing.image import ImageDataGenerator
+
+# Configuration des paramètres
+IMG_SIZE = (64, 64)
+BATCH_SIZE = 32
+X_train_val, X_test, y_train_val, y_test = train_test_split(X, y, test_size=0.2,random_state=42, stratify=y)
+
+# Créer des générateurs de données
+train_datagen = ImageDataGenerator(
+    rescale=1./255,
+    validation_split=0.2,
+    rotation_range=20,
+    zoom_range=0.2,
+    horizontal_flip=True
+)
+
+train_generator = train_datagen.flow_from_directory(
+    cutout_path,
+    target_size=IMG_SIZE,
+    batch_size=BATCH_SIZE,
+    class_mode='binary',
+    subset='training',
+    seed=42
+)
+val_generator = train_datagen.flow_from_directory(
+    cutout_path,
+    target_size=IMG_SIZE,
+    batch_size=BATCH_SIZE,
+    class_mode='binary',
+    subset='validation',
+    seed=42
+)
+test_datagen = ImageDataGenerator(rescale=1./255)
+
+test_generator = test_datagen.flow(X_test, y_test, batch_size=BATCH_SIZE)
