@@ -91,6 +91,12 @@ from pathlib import Path
 data_path = Path(kagglehub.dataset_download("divyansh22/dummy-astronomy-data"))
 print(f"🌟 Stars: {len(stars)} | 🌌 Galaxies: {len(galaxies)}")
 
+
+<div>
+<img src="https://github.com/user-attachments/assets/8f126685-2be2-4eab-8f81-fafd5ba420bb" width=700>
+<div>
+
+  
 ## 🧠 Model Architecture
 
         model = Sequential([Conv2D(32, (3,3), activation='relu', input_shape=input_shape),
