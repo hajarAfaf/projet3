@@ -56,9 +56,13 @@ This project leverages **Convolutional Neural Networks (CNNs)** to classify astr
 
 ## ✨ Key Features <a name="key-features"></a>
 ✅ **Interactive Web Interface** (Streamlit) 
+
 ✅ **CNN Model** with TensorFlow/Keras : 2 Conv layers + MaxPooling	TensorFlow/Keras 
+
 ✅ **Real-Time Predictions** with Confidence Scores  
+
 ✅ **Data  Pipeline** for improved generalization : Automated Kaggle download + preprocessing	KaggleHub, TensorFlow
+
 ✅ **Visualization** of training metrics (Accuracy/Loss)  
 ✅ **Deployment** Public URL generation	Ngrok
 
@@ -90,6 +94,7 @@ print(f"🌟 Stars: {len(stars)} | 🌌 Galaxies: {len(galaxies)}")
 ## 🧠 Model Architecture
 model = Sequential([
     Conv2D(32, (3,3), activation='relu', input_shape=(64,64,3)),
+    
     MaxPooling2D(2,2), 
     Conv2D(64, (3,3), activation='relu'), 
     Flatten(),
