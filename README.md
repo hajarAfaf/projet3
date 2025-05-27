@@ -67,9 +67,9 @@ This project leverages **Convolutional Neural Networks (CNNs)** to classify astr
 ✅ **Deployment** Public URL generation	Ngrok
 
 [↑ Back to Top](#table-of-contents)
-
- ![Space Banner](https://github.com/user-attachments/assets/8fd044fa-f858-4348-884d-f8488a164e32)
-
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/8fd044fa-f858-4348-884d-f8488a164e32"width=200>
+</div>
 ## ⚙️ Installation <a name="installation"></a>
 
 ### Prerequisites  
