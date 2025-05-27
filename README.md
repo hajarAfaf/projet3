@@ -99,7 +99,7 @@ print(f"🌟 Stars: {len(stars)} | 🌌 Galaxies: {len(galaxies)}")
 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/afe7a6a4-84db-4bb7-ac29-9ba34a4370ff" width="700" style="border: 1px solid #ddd; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1)" alt="Diagramme du modèle">
-  <p style="font-size: 0.9em; color: #666;">Schéma technique - Master IT 2025</p>
+  <p style="font-size: 0.9em; color: #666;">
 </div>
 
   
