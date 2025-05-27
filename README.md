@@ -75,7 +75,10 @@ This project leverages **Convolutional Neural Networks (CNNs)** to classify astr
 
 ### Prerequisites  
 - Python 3.8+  
-- pip (Python package manager)  
+- pip (Python package manager)
+
+### Google colab link
+https://colab.research.google.com/drive/1uoveRNhfdHzmElNVr57p6EyCLzvLNW0Z?usp=sharing
 
 ### Installation et importation de bibliothèques Python  
 !pip install tensorflow kagglehub matplotlib
@@ -102,21 +105,23 @@ print(f"🌟 Stars: {len(stars)} | 🌌 Galaxies: {len(galaxies)}")
   
 ## 🧠 Model Architecture
 
-        model = Sequential([Conv2D(32, (3,3), activation='relu', input_shape=input_shape),
-                            MaxPooling2D(2,2),
-                            Conv2D(64, (3,3), activation='relu'),
-                            MaxPooling2D(2,2),
-                            Flatten(), 
-                            Dense(64, activation='relu'),
-                            Dense(num_classes, activation='softmax')
+         model = tf.keras.models.Sequential([
+    tf.keras.layers.Conv2D(32, (3,3), activation='relu', input_shape=(64,64,3)),
+    tf.keras.layers.MaxPooling2D(2,2),
+    tf.keras.layers.Conv2D(64, (3,3), activation='relu'),
+    tf.keras.layers.MaxPooling2D(2,2),
+    tf.keras.layers.Flatten(),
+    tf.keras.layers.Dense(64, activation='relu'),
+    tf.keras.layers.Dense(2, activation='softmax')
     ])
+    
 
 ## 📡 Training Performance
 
 | Metric       | Training | Validation |
 |--------------|----------|------------|
-| **Accuracy** | 92%      | 88%        |
-| **Loss**     | 0.25     | 0.30       |
+| **Accuracy** | 100%      | 88%        |
+| **Loss**     | 0.0038     | 0.58    |
 
 ## 🚀 Deployment Streamlit with Ngrok
 
@@ -144,9 +149,12 @@ graph TD
 ## 🛠️ Project Structure
 
 project3/
-        ├── data/                   
+        ├── data_Preparation.ipynb                   
         ├── app.py                  
-        ├── training.ipynb           
-        ├── requirements.txt        
-        └── README.md              
+        ├── train.ipynb           
+        ├── requirements.txt
+        ├──model.ipynb
+        ├──streamlit.py
+        └── README.md 
+        
 
