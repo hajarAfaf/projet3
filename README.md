@@ -140,8 +140,8 @@ N.B: Essayez d'obtenir votre authotoken par: https://dashboard.ngrok.com/get-sta
 ```mermaid
 graph TD
     A[Upload Image] --> B{CNN Prediction}
-    B -->|Star| C[🌟 Show Stellar Features]
-    B -->|Galaxy| D[🌌 Display Galactic Structure]
+    B -->|Star| C[Show Confidence: ⭐ Star]
+    B -->|Galaxy| D[ Show Confidence: 🌌 Galaxy]
     C --> E[Output Visualization]
     D --> E
 ```
