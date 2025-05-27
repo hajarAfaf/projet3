@@ -80,7 +80,8 @@ This project leverages **Convolutional Neural Networks (CNNs)** to classify astr
 ### Google colab link
 https://colab.research.google.com/drive/1uoveRNhfdHzmElNVr57p6EyCLzvLNW0Z?usp=sharing
 
-### Installation et importation de bibliothèques Python  
+### Installation et importation de bibliothèques Python
+
 !pip install tensorflow kagglehub matplotlib
 !pip install streamlit pyngrok
 import tensorflow as tf
