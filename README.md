@@ -68,8 +68,9 @@ This project leverages **Convolutional Neural Networks (CNNs)** to classify astr
 
 [↑ Back to Top](#table-of-contents)
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/8fd044fa-f858-4348-884d-f8488a164e32"width=200>
+  <img src="https://github.com/user-attachments/assets/8fd044fa-f858-4348-884d-f8488a164e32"width=800>
 </div>
+
 ## ⚙️ Installation <a name="installation"></a>
 
 ### Prerequisites  
