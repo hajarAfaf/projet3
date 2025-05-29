@@ -80,9 +80,11 @@ This project leverages **Convolutional Neural Networks (CNNs)** to classify astr
 ### Google colab link
 https://colab.research.google.com/drive/1uoveRNhfdHzmElNVr57p6EyCLzvLNW0Z?usp=sharing
 
-### Rapport and video link
+### Rapport link
 https://drive.google.com/file/d/13LquGRPtuuOIo01IEHkOIUrg42-gVHx7/view?usp=sharing
 
+### Video link
+https://drive.google.com/file/d/1lBFORwUlSrh5A9KMeFFZJE8TT8DV0J1r/view?usp=sharing
 
 ### Installation et importation de bibliothèques Python
 
